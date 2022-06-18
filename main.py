@@ -52,7 +52,7 @@ def main(args):
 
 if __name__ == '__main__':
     args_list = {}
-    parser = argparse.ArgumentParser(description='[*] Disord message removal tool.')
+    parser = argparse.ArgumentParser(description='[*] Discord message removal tool.')
     parser.add_argument('--token', metavar='<token>', help="Discord token", required=True)
     parser.add_argument('--channel', metavar='<channel>', help="Channel / Chat id", required=True)
     parser.add_argument('--user', metavar='<user>', help="User id", required=False)

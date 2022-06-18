@@ -41,6 +41,7 @@ def main(args):
                     print('DELETED MESSAGE:', id)
                     break
 
+        print('LOADING MESSAGES...')
         for msg in m.getMessages():
             if args['user']:
                 if msg['author']['id'] == args['user'] or msg['author']['username'] == args['user']:

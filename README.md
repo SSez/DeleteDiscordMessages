@@ -1,4 +1,4 @@
-# DeleteDiscordMessages
+# Delete Discord messages
 Python script to remove Discord messages.
 
 ### Delete private messages
